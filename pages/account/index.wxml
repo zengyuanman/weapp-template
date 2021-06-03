@@ -1,0 +1,24 @@
+<view class="container">
+    <view class="login-content">
+        <view class="authorize-wrap">
+            <view class="auth-title">
+                获取你的昵称、头像、地区及性别
+            </view>
+            <view class="user-card">
+                <view class="avatar-wrap">
+                    <open-data type="userAvatarUrl"></open-data>
+                </view>
+                <view class="user-info">
+                    <view class="name">
+                        <open-data type="userNickName"></open-data>
+                    </view>
+                    <view class="grey-light-color">微信个人信息</view>
+                </view>
+            </view>
+            <view class="auth-ctrl">
+                <button wx:if="{{isAuth}}" class="my-button my-button-info" catchtap="loginFun">微信登录</button>
+                <button wx:else class="my-button my-button-info" bindgetuserinfo="getUserInfoFun" open-type="getUserInfo">微信登录</button>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,103 @@
+@import '/miniprogram_npm/@vant/weapp/common/index.wxss';
+.link {
+    color: #5658FA;
+}
+
+.page-container {
+    background-color: #fcfbfb;
+    min-height: 100vh;
+    font-size: 28rx;
+    line-height: 1.5;
+    color: #323238;
+}
+
+.nodata {
+    text-align: center;
+    font-size: 32rpx;
+    color: #999;
+    padding: 50rpx 0;
+}
+
+.my-form-wrap {}
+
+.my-form-item+.my-form-item {
+    margin-top: 40rpx;
+}
+
+.my-form-item .form-label {
+    padding-left: 10rpx;
+    font-size: 30rpx;
+}
+
+.my-form-item .form-label+.form-input-wrap {
+    margin-top: 20rpx;
+}
+
+.my-form-item .form-input-wrap {
+    display: flex;
+    align-items: center;
+    padding: 20rpx 30rpx;
+    background-color: #fff;
+    box-shadow: 0 4px 21px 0 rgba(57, 0, 15, 0.08);
+    border-radius: 20rpx;
+}
+
+.my-form-item .input-wrap {
+    flex: 1;
+}
+
+.my-form-item .input-wrap input,
+.my-form-item .input-wrap textarea {
+    width: 100%;
+    font-size: 26rpx;
+}
+
+.my-form-item .input-wrap textarea {
+    height: 140rpx;
+    margin: 10rpx 0;
+}
+
+.my-form-item .btn-wrap {
+    margin-left: 40rpx;
+}
+
+.my-form-item .btn-wrap .code-btn {
+    padding: 0 20rpx;
+    height: 54rpx;
+    line-height: 54rpx;
+    background: #FF4F00;
+    border-radius: 10rpx;
+    font-size: 24rpx;
+    color: #fff;
+}
+
+.my-form-item .btn-wrap .text {
+    color: #999;
+}
+
+.my-form-item .btn-wrap .image-btn {
+    padding: 10rpx;
+}
+
+.my-form-item .btn-wrap .image-btn .location {
+    display: block;
+    width: 40rpx;
+    height: 40rpx;
+}
+
+.my-form-item .btn-wrap .image-btn .arrow {
+    display: block;
+    width: 54rpx;
+    height: 54rpx;
+}
+
+.my-button {
+    height: 84rpx;
+    line-height: 84rpx;
+    font-size: 30rpx;
+}
+
+.my-button-info {
+    background-color: #5658FA;
+    color: #fff;
+}

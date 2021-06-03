@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/account/index",
+    "pages/account/bind"
+  ],
+  "usingComponents": {
+    "van-search": "@vant/weapp/search/index",
+    "van-checkbox": "@vant/weapp/checkbox/index",
+    "van-popup": "@vant/weapp/popup/index"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#5658FA",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "/assets/images/tab/home-active@3x.png",
+        "iconPath": "/assets/images/tab/home@3x.png",
+        "pagePath": "pages/account/index",
+        "text": "登录"
+      },
+      {
+        "selectedIconPath": "/assets/images/tab/search-active@3x.png",
+        "iconPath": "/assets/images/tab/search@3x.png",
+        "pagePath": "pages/account/bind",
+        "text": "表单"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+<view class="page-container">
+    <view class="login-wrap">
+        <view class="my-form-wrap">
+            <view class="my-form-item">
+                <view class="form-label">手机号码</view>
+                <view class="form-input-wrap">
+                    <view class="input-wrap">
+                        <input value="{{formData.mobile}}" bindinput="formInputChange" data-field="mobile" type="number" placeholder="请输入绑定手机号码" placeholder-style="color:#C3C3C3" />
+                    </view>
+                    <view class="btn-wrap">
+                        <view class="text" wx:if="{{count}}">{{count}}S</view>
+                        <view class="code-btn" catchtap="sendCodeHandle" wx:else>获取验证码</view>
+                    </view>
+                </view>
+            </view>
+            <view class="my-form-item">
+                <view class="form-label">验证码</view>
+                <view class="form-input-wrap">
+                    <view class="input-wrap">
+                        <input value="{{formData.code}}" bindinput="formInputChange" data-field="code" type="number" placeholder="请输入手机验证码" placeholder-style="color:#C3C3C3" />
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="bind-btn-wrap">
+            <button class="my-button my-button-info" catchtap="submitHandleFun">绑定</button>
+        </view>
+    </view>
+</view>

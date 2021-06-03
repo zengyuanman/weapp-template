@@ -1,0 +1,36 @@
+.login-content {
+    padding: 60rpx;
+}
+
+.authorize-wrap {
+    margin-top: 100rpx;
+}
+
+.auth-title {
+    font-size: 36rpx;
+}
+
+.user-card {
+    display: flex;
+    align-items: center;
+    margin-top: 40rpx;
+    padding: 20rpx 0;
+    border-top: 2rpx solid #F1F1F1;
+    border-bottom: 2rpx solid #F1F1F1;
+}
+
+.user-card .avatar-wrap {
+    overflow: hidden;
+    width: 116rpx;
+    height: 116rpx;
+    border-radius: 10rpx;
+}
+
+.user-card .user-info {
+    margin-left: 20rpx;
+    line-height: 2;
+}
+
+.auth-ctrl {
+    margin-top: 88rpx;
+}
